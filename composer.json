@@ -1,0 +1,27 @@
+{
+    "name": "kindling/pdf",
+    "description": "Package to make creating PDFs easy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew huggins",
+            "email": "andrewhuggins@gmail.com"
+        }
+    ],
+    "require": {
+        "barryvdh/laravel-snappy": "^0.4.4",
+        "h4cc/wkhtmltopdf-amd64": "0.12.x"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kindling\\PDF\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kindling\\PDF\\Providers\\KindlingPDFProvider"
+            ]
+        }
+    }
+}
