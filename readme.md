@@ -12,7 +12,7 @@ Pretty simple, `composer require kindling/pdf`.
 
 > You will have to add an ENV variable: 
 
-> `WKHTMLTOPDF_PATH` 
+> `WKHTMLTOPDF_PATH="vendor/kindling/pdf/bin/wkhtmltopdf-osx"` 
 
 > Which you can specify, but because this package is trying to make this quick/easy, the path needs to be in the `base_path()` of your app. If you're on Linux (Ubuntu), you probably don't need to worry about this ENV variable, it should work out of the box.
 
