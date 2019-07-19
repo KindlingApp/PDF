@@ -21,3 +21,9 @@ The idea here is that this makes it quick and easy to be able to add a single pa
 The config file, when published will be `config/snappy.php` this is due to this package wrapping Laravel Snappy.
 
 Publish the config with `php artisan vendor:publish` and choose the Kindling\PDF package.
+
+## Usage
+
+Please see the Laravel Snappy docs for usage, https://github.com/barryvdh/laravel-snappy.
+
+Reminder, this package is the bare essentials wrapper around Laravel Snappy, and attempting to provide out of the box usage.
